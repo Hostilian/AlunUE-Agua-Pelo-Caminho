@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "AlunUÉ · Água pelo caminho",
+  "short_name": "AlunUÉ Água",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f5eb",
+  "theme_color": "#17493e",
+  "description": "Água e boas paragens pelo caminho em Évora.",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "lang": "pt-PT"
+}
