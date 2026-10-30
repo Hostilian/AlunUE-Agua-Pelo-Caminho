@@ -12,7 +12,7 @@
 | Compatibilidade | Interface adaptável, localização opcional, partilha/cópia com alternativa |
 | Android/PWA | Manifesto e interface offline; instalação no dispositivo por verificar |
 | APK | Não construído ou assinado; requer decisão e testes próprios |
-| Investigação | Relatório de oito páginas; evidência recordada e hipóteses identificadas |
+| Investigação | Relatório de dez páginas, incluindo três relatos reconstruídos e síntese visual; evidência e hipóteses identificadas |
 | Repositório e publicação | Repositório autónomo, verificações e GitHub Pages |
 
 ## Evolução
