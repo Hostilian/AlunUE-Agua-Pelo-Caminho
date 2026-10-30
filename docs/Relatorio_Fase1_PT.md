@@ -55,11 +55,7 @@ O que já está sustentado e o que falta validar
 
 Descoberta e custo provêm de C1; água e descanso em corrida de C2; interesse em novidades de C3. Emoções, fluxos detalhados e soluções de interface são propostas. Cada perfil assenta num único relato reconstruído; são necessárias novas entrevistas para confirmar padrões e divergências. O perfil P3 descreve interesse na comunicação, sem demonstrar uma terceira necessidade de reabastecimento distinta.
 
-Guião para completar a investigação
-
-Pedir uma experiência recente concreta antes de mostrar o protótipo: onde procurou água, o que fez, que custo ou desvio ocorreu e como avaliou o local. Para C2, perguntar pelo último percurso e pelas paragens de descanso. Para C3, perguntar que novidades seriam úteis, por que canal e com que frequência; só registar contacto mediante autorização explícita.
-
-Para novos participantes, confirmar vínculo à UÉ e autorização para síntese anónima. Guardar código, data real, pergunta, paráfrase, contexto e confiança da recordação. Registar também respostas negativas; não reconstruir pormenores que o autor não recorda.
+Próxima recolha: confirmar experiências concretas antes de mostrar o protótipo, aprofundar água/descanso e preferências de atualizações, recolher respostas negativas e registar data, contexto e autorização. Não preencher lacunas de memória com suposições.
 
 ALUNUÉ / FASE 1 / 04
 
@@ -107,13 +103,11 @@ Etapa | Ação e possível dificuldade | Resposta de conceção
 5 · No local | Encontrar encerramento ou informação incorreta. | Exibir limitações, procurar alternativa e preparar correção.
 6 · Continuação | Prosseguir sem obrigação de consumo ou interação. | Sem compra obrigatória; lojas apenas com adesão explícita.
 
-Variações por perfil
+Variações ligadas aos relatos
 
-<b>P1 / C1:</b> descoberta de água e comparação de informação económica e pagamento. <b>P2 / C2:</b> integrar água e descanso num percurso; os locais de descanso devem ser verificados. <b>P3 / C3:</b> acompanhar a disponibilidade futura por adesão voluntária. A jornada de atualização é: descobrir proposta → pedir novidades → escolher canal e consentir → receber informação → poder cancelar. Este fluxo é proposto e ainda não está implementado.
+<b>P1 / C1:</b> descobrir água e consultar custo/pagamento quando verificados. <b>P2 / C2:</b> planear água e descanso em corrida. <b>P3 / C3:</b> descobrir proposta → pedir novidades → escolher canal e consentir → receber informação → poder cancelar. Este último fluxo é uma proposta, ainda não implementada.
 
-Mapa físico e limites geográficos
-
-O protótipo pode abrir o mapa de ruas de Évora e consultar candidatos do OpenStreetMap. Nenhuma coordenada sintética constitui um ponto real de água. Não se publica neste relatório um mapa de fontes verificadas, porque esse levantamento ainda não foi realizado. Um registo cartográfico não comprova potabilidade, gratuidade ou funcionamento.
+O esquema não representa ruas ou pontos reais. Os candidatos OpenStreetMap exigem confirmação de potabilidade, gratuidade, acesso e funcionamento.
 
 ALUNUÉ / FASE 1 / 06
 
@@ -213,3 +207,20 @@ Resposta | Reagiu positivamente, considerou a ideia útil e manifestou vontade d
 Interpretação | Existe interesse declarado em acompanhamento, sem canal ou periodicidade definidos. Não constitui consentimento para publicar dados pessoais nem prova de adoção.
 
 O autor refere ter uma lista de outras pessoas interessadas, mas não foram fornecidos nomes, contactos ou respostas adicionais. A lista não é contabilizada como novos participantes nem apresentada como pedidos de notificação autorizados.
+
+ALUNUÉ / FASE 1 / 10
+
+Síntese visual · Da evidência ao desenho
+
+Cada linha liga um relato reconstruído a uma necessidade, a uma persona provisória e aos requisitos correspondentes. As cores distinguem os casos; não representam percentagens, intensidade ou frequência.
+
+Como ler o projeto
+
+Camada | O que pode ser afirmado
+RELATO | O autor recorda três conversas e confirmou vínculo à UÉ e autorização para síntese anónima.
+INTERPRETAÇÃO | Os temas orientam a conceção; a ligação indicada é uma análise do projeto, não uma conclusão estatística.
+PROPOSTA | Personas, mapas, metas e funcionalidades futuras devem ser confirmados por investigação e testes.
+
+O percurso de validação
+
+<b>Recordar e documentar</b> → confirmar com participantes → aprofundar a pesquisa → rever os artefactos → testar tarefas → medir e melhorar. A qualidade visual ajuda a comunicar; a qualidade da evidência sustenta as decisões.
