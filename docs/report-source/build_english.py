@@ -43,11 +43,11 @@ p('Confirm interpretations with the people concerned. Empathy maps do not establ
 
 title('05','Proposed user journey')
 p('Design scenario: a student needs to refill a bottle while travelling through the city. This sequence has not been observed in a field study or usability test.')
-story.append(EnglishDiagram())
+story.append(RouteVisual('journey',en=True))
 table([['Stage','Action and possible difficulty','Design response'],['1 · Need','Look for water without knowing where to start.','Searchable list, optional location and manual start.'],['2 · Assess','Distinguish a useful point from uncertain map data.','Source, date, access, cost and verification status.'],['3 · Plan','Choose stops without an unnecessary detour.','Adjustable order and optional grocery/cultural stops.'],['4 · Travel','Move the plan to external navigation.','Walking directions export and a text alternative.'],['5 · Arrive','Encounter a closure or incorrect information.','Show limits, seek an alternative and prepare a correction.'],['6 · Continue','Continue without pressure to spend or interact.','No purchase requirement; shops only with explicit opt-in.']],[65,215,215])
 h('Variations traced to the accounts')
 p('<b>P1 / C1:</b> discover water and inspect verified cost/payment information. <b>P2 / C2:</b> plan water and rest while running. <b>P3 / C3:</b> discover proposal → request news → choose channel and consent → receive news → opt out. The update flow is proposed and not implemented.')
-p('The map uses real historic-centre geometry and OSM landmarks. Blue circles identify water candidates, not confirmed services. The table describes a proposed journey; no unvalidated walking route is drawn.','SmallPT')
+p('The figure summarises the experience stages; the table details difficulties and design responses. The actual geographic map appears on the first page. Water points remain candidates requiring on-site confirmation.','SmallPT')
 
 title('06','Hierarchical task analysis')
 p('Goal 0: obtain water and continue the journey. This HTA describes intended tasks and recovery paths, rather than behaviour already observed.')
@@ -97,6 +97,6 @@ p('<b>Recall and document</b> → confirm with participants → deepen the resea
 
 def footer_en(c,doc):
     paint_page(c,doc,en=True)
-pdf=OUT/'AlunUE_Water_Along_The_Way_Phase1_EN_Review_v5.pdf'
+pdf=OUT/'AlunUE_Fase1_Eren_Ozturk_FINAL_EN_Review.pdf'
 SimpleDocTemplate(str(pdf),pagesize=(595.28,841.89),rightMargin=50,leftMargin=50,topMargin=43,bottomMargin=57,title='AlunUÉ - Water along the way - English review',author='Eren Ozturk').build(story,onFirstPage=footer_en,onLaterPages=footer_en)
 print(pdf)

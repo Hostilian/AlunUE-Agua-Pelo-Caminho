@@ -96,18 +96,18 @@ Mapa de jornada proposto
 Cenário de conceção: um estudante quer reabastecer a garrafa durante uma deslocação. A sequência abaixo não foi observada num teste nem acompanhada no terreno.
 
 Etapa | Ação e possível dificuldade | Resposta de conceção
-1 · Necessidade | Procurar água; não saber onde começar. | Lista pesquisável; localização opcional e início manual.
-2 · Avaliação | Distinguir um ponto real de um registo incerto. | Mostrar fonte, data, acesso, custo e estado de verificação.
-3 · Planeamento | Escolher paragens sem desvio desnecessário. | Ordem ajustável; supermercado e ponto cultural opcionais.
-4 · Deslocação | Transferir o plano para navegação externa. | Exportação pedonal para Google Maps e alternativa em texto.
+1 · Início | Procurar água; não saber onde começar. | Lista pesquisável; localização opcional e início manual.
+2 · Avaliar | Distinguir um ponto real de um registo incerto. | Mostrar fonte, data, acesso, custo e estado de verificação.
+3 · Planear | Escolher paragens sem desvio desnecessário. | Ordem ajustável; supermercado e ponto cultural opcionais.
+4 · Ir | Transferir o plano para navegação externa. | Exportação pedonal para Google Maps e alternativa em texto.
 5 · No local | Encontrar encerramento ou informação incorreta. | Exibir limitações, procurar alternativa e preparar correção.
-6 · Continuação | Prosseguir sem obrigação de consumo ou interação. | Sem compra obrigatória; lojas apenas com adesão explícita.
+6 · Seguir | Prosseguir sem obrigação de consumo ou interação. | Sem compra obrigatória; lojas apenas com adesão explícita.
 
 Variações ligadas aos relatos
 
 <b>P1 / C1:</b> descobrir água e consultar custo/pagamento quando verificados. <b>P2 / C2:</b> planear água e descanso em corrida. <b>P3 / C3:</b> descobrir proposta → pedir novidades → escolher canal e consentir → receber informação → poder cancelar. Este último fluxo é uma proposta, ainda não implementada.
 
-O mapa usa geometrias reais do centro histórico e referências OSM. Os círculos azuis indicam candidatos de água, não pontos confirmados. As etapas da tabela são uma jornada proposta; não se desenha um itinerário pedonal sem validação.
+A figura apresenta as etapas da experiência; a tabela detalha dificuldades e respostas de conceção. O mapa geográfico real está na primeira página. Os pontos de água continuam candidatos, sujeitos a confirmação no local.
 
 ALUNUÉ / FASE 1 / 06
 
@@ -135,7 +135,7 @@ Requisitos e critérios de avaliação
 
 Prioridades atribuídas pelo projeto: <b>P0</b> essencial; <b>P1</b> extensão. Os valores abaixo são metas propostas para testes futuros, não resultados medidos.
 
-ID / prioridade | Requisito e rastreabilidade | Critério proposto
+ID / nível | Requisito e rastreabilidade | Critério proposto
 R1 · P0 | Distinguir candidato, demonstração e ponto confirmado. E2 + risco de informação incorreta. | Nenhum candidato não confirmado deve ser anunciado como água garantida.
 R2 · P0 | Encontrar água sem conta e sem localização obrigatória. E1/E2 + hipótese de acessibilidade. | Pelo menos 4 de 5 participantes concluem a tarefa com início manual.
 R3 · P0 | Mostrar fonte, data, custo e acesso. E2 + decisão de confiança. | Pelo menos 4 de 5 identificam corretamente a incerteza antes de escolher.

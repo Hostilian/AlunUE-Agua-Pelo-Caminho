@@ -8,13 +8,29 @@ PALETTE=['#246D64','#A85631','#53649A']
 PAPER=HexColor('#FAF9F4')
 class RouteVisual(Flowable):
     def __init__(self,kind='flow',en=False):
-        super().__init__();self.kind=kind;self.en=en;self.width=495;self.height=190 if kind=='hta' else 230
+        super().__init__();self.kind=kind;self.en=en;self.width=495;self.height=190 if kind in ['hta','journey'] else 230
     def draw(self):
         c=self.canv
         st=ParagraphStyle('maptext',fontName='Arial',fontSize=9,leading=12,textColor=HexColor('#234B41'))
         def box(x,y,w,h,label,color='#E9F1EA'):
             c.setFillColor(HexColor(color));c.roundRect(x,y,w,h,8,fill=1,stroke=0)
             q=Paragraph(label,st);_,hh=q.wrap(w-16,h-12);q.drawOn(c,x+8,y+(h-hh)/2)
+        if self.kind=='journey':
+            labels=[('Find water','Need + optional manual start'),('Assess trust','Source, date, cost and access'),('Plan stops','Water + optional stops'),('Travel','Maps or saved text'),('Check on arrival','Confirm actual conditions'),('Continue','Refill if allowed; seek an alternative')] if self.en else [('Procurar água','Necessidade + início manual opcional'),('Avaliar confiança','Fonte, data, custo e acesso'),('Planear paragens','Água + opções pelo caminho'),('Deslocar','Maps ou itinerário em texto'),('Confirmar no local','Verificar as condições reais'),('Continuar','Encher se permitido; procurar alternativa')]
+            positions=[(0,111),(169,111),(338,111),(338,35),(169,35),(0,35)]
+            for i,((heading,detail),(x,y)) in enumerate(zip(labels,positions)):
+                color=PALETTE[i%3]
+                c.setFillColor(HexColor(['#E8F2EA','#FAEEE4','#ECEFF7'][i%3]));c.roundRect(x,y,157,66,8,fill=1,stroke=0)
+                c.setFillColor(HexColor(color));c.setFont('ArialBold',8);c.drawString(x+10,y+51,f'{i+1:02d}  '+heading)
+                q=Paragraph(detail,st);_,hh=q.wrap(137,39);q.drawOn(c,x+10,y+39-hh)
+            c.setStrokeColor(HexColor('#5B8174'));c.setLineWidth(1.2)
+            for x1,y1,x2,y2 in [(157,144,169,144),(326,144,338,144),(416,111,416,101),(338,68,326,68),(169,68,157,68)]:
+                c.line(x1,y1,x2,y2)
+                if x2>x1:c.line(x2,y2,x2-3,y2+2);c.line(x2,y2,x2-3,y2-2)
+                elif x2<x1:c.line(x2,y2,x2+3,y2+2);c.line(x2,y2,x2+3,y2-2)
+                else:c.line(x2,y2,x2-2,y2+3);c.line(x2,y2,x2+2,y2+3)
+            c.setFillColor(HexColor('#52665E'));c.setFont('Arial',7.6);c.drawString(0,13,'Proposed experience map; not a geographic route or observed user test.' if self.en else 'Mapa de experiência proposto; não é um percurso geográfico nem um teste observado.')
+            return
         if self.kind=='hta':
             top='0. Obtain water and continue' if self.en else '0. Obter água e continuar'
             box(125,140,245,43,top)
