@@ -14,9 +14,9 @@ Propõe-se um módulo de mobilidade e serviços essenciais do AlunUÉ: encontrar
 
 Estado do trabalho
 
-Trabalho individual. O autor declara que o docente autorizou esta modalidade; não se apresenta essa declaração como confirmação documental. A pesquisa disponível consiste em recordações de conversas informais. As três personas e os mapas apresentados são provisórios e requerem validação. Não foi realizado um inquérito estruturado recuperável, nem um teste de usabilidade.
+Trabalho individual. O autor declara que o docente autorizou esta modalidade; não se apresenta essa declaração como confirmação documental. A pesquisa disponível inclui três sínteses individuais reconstruídas de conversas informais da última semana, além de feedback geral recordado. As três personas e os mapas são provisórios, agora ligados a necessidades concretas desses relatos. Não foi realizado um inquérito estruturado recuperável, nem um teste de usabilidade.
 
-A distinção entre evidência, interpretação e proposta é mantida ao longo do relatório. Não são apresentados dados, transcrições ou resultados de avaliação fabricados.
+As sínteses são paráfrases recordadas pelo autor, não transcrições. O apêndice apresenta os três casos e distingue o que foi relatado das implicações de conceção.
 
 ALUNUÉ / FASE 1 / 02
 
@@ -24,76 +24,74 @@ Método e sinais exploratórios
 
 Origem e condições da recolha
 
-O autor recorda ter apresentado a ideia de uma aplicação ou website a colegas e conhecidos, incluindo estudantes Erasmus e pessoas da sua faculdade. Identifica os interlocutores como estudantes universitários; a inscrição individual na UÉ não foi verificada. A estimativa de cerca de 30 interlocutores é uma recordação aproximada, sem denominador auditável. As notas originais não estão disponíveis; o autor relata a sua perda. Não são recuperáveis datas, distribuição dos perfis ou respostas individuais completas.
+O autor conversou informalmente com colegas e conhecidos, incluindo estudantes Erasmus e pessoas da sua faculdade, durante a semana anterior ao relato de 30/10/2026. Após a perda das notas originais, reconstruiu três casos individuais: C1, C2 e C3 (apêndice). O autor confirmou que as três pessoas são estudantes da UÉ e aceitaram a síntese anónima para o trabalho. Os dias e locais exatos não foram recuperados; a confirmação do vínculo e da autorização baseia-se no seu relato. A estimativa de cerca de 30 interlocutores continua aproximada; os três casos não são uma nova amostra representativa.
 
-A pergunta recordada consistia, aproximadamente, em saber se uma aplicação deste tipo seria útil. As conversas foram casuais e a proposta foi apresentada antes da reação. Isto permite explorar aceitação declarada, mas introduz enviesamento de confirmação, conveniência e desejabilidade social. Não permite concluir que a aplicação resolverá uma necessidade frequente ou será utilizada regularmente.
+O autor recorda perguntas sobre o que as pessoas gostariam de encontrar e sobre a utilidade de uma aplicação. A proposta era apresentada nas conversas; a ordem exata das perguntas não é recuperável. Trata-se de uma amostra de conveniência e reconstrução retrospectiva, sujeita a memória seletiva e desejabilidade social. Não mede adoção nem frequência do problema.
 
-ID / tipo | Conteúdo e alcance
-E1 · recordação do autor | Os interlocutores reagiram favoravelmente à ideia; alguns referiram a compra repetida de água. Não há contagens, transcrições nem atribuições individuais recuperadas.
-E2 · recordação do autor | O autor recorda desconhecimento da existência ou localização de pontos de reabastecimento. A extensão deste desconhecimento não foi medida.
-E3 · intenção do autor | Prioridades: confiança, água, percursos pedonais, supermercados pelo caminho, vistas e lojas participantes. São preferências de conceção, não resultados de votação.
-E4 · confirmação do autor | Ainda não foi encontrada uma loja aderente. A rede de lojas é uma proposta futura, sem acordo comercial ou autorização de entrada.
+ID / origem | Sinal disponível e implicação
+E1/E2 · feedback geral | Reações favoráveis, compra repetida de água e desconhecimento dos pontos de abastecimento, segundo o autor. Sem percentagens ou contagem auditável.
+E3 · preferência do autor | Confiança, percursos, supermercados, vistas e lojas voluntárias: decisões de âmbito, não resultados de votação.
+E4 · estado operacional | Nenhuma loja aderente confirmada. A rede proposta exige acordos futuros.
+E5 · caso C1 | Dificuldade em encontrar fontes numa cidade nova; dificuldade percebida em localizar compras económicas e pagamento com cartão. Investigar descoberta, preço e informação de pagamento.
+E6 · caso C2 | Pessoa que corre regularmente quer locais onde beber água e descansar. Investigar continuidade do percurso e paragens de descanso.
+E7 · caso C3 | Reação positiva e pedido para receber novidades. Investigar interesse em atualizações voluntárias; não equivale a adoção nem autoriza notificações automáticas.
 
-Interpretação prudente
+Interpretação e proteção dos participantes
 
-E1 e E2 sugerem investigar a descoberta e a confiança na informação sobre água. Não sustentam percentagens de apoio, comparações entre segmentos ou causalidade. Não foram reconstruídas objeções individuais. A falta de objeções registadas não significa ausência de reservas.
-
-Proteção dos participantes
-
-O relatório não identifica interlocutores. A informação sobre consentimento para uso académico não foi recuperada. Não se publicam mensagens privadas. As futuras entrevistas devem pedir autorização para síntese anónima, recolher apenas o necessário e permitir desistência.
+Os casos sustentam necessidades específicas a investigar, não generalizações sobre todos os estudantes. A perceção de C1 sobre o comércio não constitui um levantamento dos estabelecimentos de Évora. Não foram recordadas objeções individuais; isso não prova ausência de reservas. Usam-se códigos anónimos e não se publicam contactos ou mensagens privadas. A autorização para síntese anónima dos três casos foi confirmada pelo autor. Pedir nova autorização se o âmbito da utilização mudar.
 
 ALUNUÉ / FASE 1 / 03
 
-Três personas de trabalho
+Três personas ligadas aos relatos
 
-Estas são <b>proto-personas propostas</b>, sem nomes de participantes nem biografias inventadas. Apenas o contexto Erasmus tem ligação explícita às conversas relatadas. Os outros dois perfis são hipóteses de recrutamento sugeridas pelo enunciado; não representam segmentos já investigados.
+As personas são perfis de necessidades provisórios, ancorados nos casos C1-C3. Não são biografias nem segmentos estatisticamente validados. O autor confirmou o vínculo dos três interlocutores à UÉ. A representatividade de cada perfil para outros estudantes continua por validar. Não se atribuem idades, nacionalidades, rendimentos ou ocupações não recordados.
 
-Perfil | Objetivo, contexto e validação necessária
-P1 · Estudante internacional recém-chegado | Objetivo: encontrar água sem conhecer a cidade nem dominar o português. Possíveis barreiras: vocabulário, confiança e receio de entrar numa loja. Ligação: contexto Erasmus mencionado pelo autor; barreiras específicas são hipóteses. Validar através da última experiência real de procura de água.
-P2 · Estudante do primeiro ano | Objetivo: integrar o reabastecimento no percurso entre aulas. Hipóteses: pouca familiaridade com os edifícios e necessidade de horários claros. Não existe evidência específica deste segmento. Validar conhecimento dos espaços, acesso e alternativas atuais.
-P3 · Trabalhador-estudante | Objetivo: resolver a necessidade com pouco desvio e combinar uma compra. Hipóteses: tempo limitado e baixa tolerância a informação desatualizada. Não existe evidência específica deste segmento. Validar restrições de tempo, decisões e frequência do problema.
+Perfil / base | Objetivo, evidência e pressupostos
+P1 · Descoberta numa cidade nova / C1 | Objetivo: encontrar água e alternativas económicas sem conhecer a cidade. Relato: fontes difíceis de localizar e incerteza sobre lojas económicas e pagamento com cartão. Implicação: pesquisa com fonte e custo claros; informação de pagamento só quando confirmada. Não assumir que a pessoa não fala português.
+P2 · Corredor com paragens de água / C2 | Objetivo: beber água e descansar ao longo de percursos regulares de corrida. Relato: corre frequentemente e deseja pontos de água e descanso. Implicação: permitir planear paragens e confirmar disponibilidade. Horários de corrida, distâncias e necessidades médicas não foram recolhidos.
+P3 · Pessoa interessada em acompanhar o serviço / C3 | Objetivo: saber quando o serviço estiver disponível. Relato: reação positiva e desejo de receber novidades. Implicação: futuro mecanismo voluntário de atualizações. Não inferir canal preferido, frequência, tolerância a notificações ou utilização efetiva.
 
-Critérios para converter hipóteses em personas sustentadas
+O que já está sustentado e o que falta validar
 
-Recrutar pessoas reais dos três contextos; confirmar vínculo à UÉ; recolher experiências concretas antes de apresentar a ideia; registar convergências e divergências; retirar atributos não suportados. Não usar idade, rendimento, nacionalidade ou competências digitais presumidas como explicações automáticas.
+Descoberta e custo provêm de C1; água e descanso em corrida de C2; interesse em novidades de C3. Emoções, fluxos detalhados e soluções de interface são propostas. Cada perfil assenta num único relato reconstruído; são necessárias novas entrevistas para confirmar padrões e divergências. O perfil P3 descreve interesse na comunicação, sem demonstrar uma terceira necessidade de reabastecimento distinta.
 
-Guião proposto para recolha adicional
+Guião para completar a investigação
 
-1. Conte a última vez que precisou de água enquanto estava em Évora. 2. O que fez e porquê? 3. Como soube se podia usar o local? 4. Que custo ou desvio existiu? 5. Já pediu água numa loja? 6. Que informação faltou? 7. O que o faria evitar esta solução? 8. Autoriza uma síntese anónima para o trabalho?
+Pedir uma experiência recente concreta antes de mostrar o protótipo: onde procurou água, o que fez, que custo ou desvio ocorreu e como avaliou o local. Para C2, perguntar pelo último percurso e pelas paragens de descanso. Para C3, perguntar que novidades seriam úteis, por que canal e com que frequência; só registar contacto mediante autorização explícita.
 
-Registar código anónimo, data, contexto, vínculo académico declarado, pergunta, paráfrase e grau de confiança. Uma entrevista nova deve ter a sua data real; não substitui retroativamente as notas perdidas.
+Para novos participantes, confirmar vínculo à UÉ e autorização para síntese anónima. Guardar código, data real, pergunta, paráfrase, contexto e confiança da recordação. Registar também respostas negativas; não reconstruir pormenores que o autor não recorda.
 
 ALUNUÉ / FASE 1 / 04
 
-Mapas de empatia
+Mapas de empatia com rastreabilidade
 
-Os mapas traduzem hipóteses de conceção, não estados mentais observados. “Diz” contém uma necessidade formulada pelo projeto, sem aspas nem atribuição a entrevistados.
+“Diz / objetivo” resume o que foi recordado, sem aspas ou transcrição literal. “Pensa”, “faz” e “sente” separam factos relatados de hipóteses para validação.
 
-P1 · Estudante internacional
+P1 · Descoberta numa cidade nova / C1
 
-Dimensão | Hipótese a verificar
-Diz / objetivo | Encontrar um local onde possa encher a garrafa.
-Pensa | Será água potável e gratuita? Consigo pedir ajuda?
-Faz | Procurar informação e comparar alternativas.
-Sente | Possível incerteza perante um espaço desconhecido.
+Dimensão | Relato ou hipótese identificada
+Diz / objetivo | Relato: fontes difíceis de encontrar; procura de opções económicas e pagamento com cartão.
+Pensa | Hipótese: como encontrar uma alternativa e saber o custo?
+Faz | Não reconstruído: percurso de procura, compras concretas e aplicação utilizada.
+Sente | Não recolhido; possível incerteza é uma hipótese.
 
-P2 · Primeiro ano
+P2 · Corredor / C2
 
-Dimensão | Hipótese a verificar
-Diz / objetivo | Perceber onde existe água no percurso entre aulas.
-Pensa | O local estará acessível à hora da próxima aula?
-Faz | Planear paragens próximas do percurso habitual.
-Sente | Possível frustração se o ponto estiver encerrado.
+Dimensão | Relato ou hipótese identificada
+Diz / objetivo | Relato: deseja locais onde beber água regularmente e descansar.
+Pensa | Hipótese: consigo integrar água e descanso no percurso?
+Faz | Relato: corre frequentemente. Trajetos, distâncias e horários não recolhidos.
+Sente | Não recolhido; não presumir cansaço ou ansiedade.
 
-P3 · Trabalhador-estudante
+P3 · Acompanhamento / C3
 
-Dimensão | Hipótese a verificar
-Diz / objetivo | Resolver a necessidade sem um grande desvio.
-Pensa | Consigo combinar água e uma compra?
-Faz | Comparar alternativas e ajustar a ordem das paragens.
-Sente | Possível preocupação com atrasos e informação antiga.
+Dimensão | Relato ou hipótese identificada
+Diz / objetivo | Relato: considera a ideia positiva e gostaria de receber novidades.
+Pensa | Hipótese: como saber quando o serviço estiver disponível?
+Faz | Manifestou interesse em atualizações; não foi observado uso do produto.
+Sente | Reação positiva recordada; intensidade não medida.
 
-Perguntas de validação: que sinais aumentam a confiança? É desconfortável entrar numa loja? Há barreiras de mobilidade, linguagem, horário ou conectividade? Estas questões ainda não têm respostas registadas.
+Confirmar estas interpretações com as próprias pessoas. Não tratar um mapa de empatia como acesso direto aos seus pensamentos.
 
 ALUNUÉ / FASE 1 / 05
 
@@ -111,7 +109,7 @@ Etapa | Ação e possível dificuldade | Resposta de conceção
 
 Variações por perfil
 
-<b>P1:</b> precisa de linguagem clara e instruções para abordar uma loja; a utilização em português deve ser testada com estudantes internacionais. <b>P2:</b> precisa de identificar acessos e horários de edifícios. <b>P3:</b> precisa de controlar as paragens e o desvio. Estas diferenças são hipóteses para entrevistas e testes futuros.
+<b>P1 / C1:</b> descoberta de água e comparação de informação económica e pagamento. <b>P2 / C2:</b> integrar água e descanso num percurso; os locais de descanso devem ser verificados. <b>P3 / C3:</b> acompanhar a disponibilidade futura por adesão voluntária. A jornada de atualização é: descobrir proposta → pedir novidades → escolher canal e consentir → receber informação → poder cancelar. Este fluxo é proposto e ainda não está implementado.
 
 Mapa físico e limites geográficos
 
@@ -151,6 +149,8 @@ R4 · P0 | Manter todas as paragens ao exportar. E3. | Nenhuma paragem seleciona
 R5 · P0 | Recuperar de falhas de rede e API. Decisão de robustez. | A interface conserva o plano e informa o utilizador da falha.
 R6 · P1 | Combinar supermercado e local de interesse. E3. | A pessoa consegue excluir cada extensão e manter água como foco.
 R7 · P1 | Lojas voluntárias e sem compra obrigatória. E3/E4. | Nenhuma loja aparece como parceira sem acordo explícito.
+R8 · P1 | Água e descanso no percurso; custo/pagamento quando verificados. E5/E6. | Nunca apresentar descanso, preço ou cartão como confirmados sem fonte.
+R9 · P1 | Atualizações futuras por adesão explícita. E7. | Nenhum contacto ou notificação sem autorização; opção de cancelar. Ainda não implementado.
 
 Usabilidade e acessibilidade
 
@@ -166,7 +166,7 @@ Limitações, próximos passos e fontes
 
 Limitações que afetam a avaliação desta fase
 
-A investigação é exploratória e retrospectiva. Não há registos individuais completos, questionário estruturado, comprovação do universo de participantes ou validação das três personas. A reação a uma ideia apresentada não mede adoção. Por isso, os artefactos de conceção não devem ser interpretados como resultados de uma investigação concluída. A perda das notas explica a limitação, mas não a elimina.
+A investigação é exploratória e retrospectiva. Foram reconstruídos três casos individuais, mas faltam transcrições ou notas originais, questionário estruturado, confirmação do universo de participantes e validação independente das três personas. A reação a uma ideia apresentada não mede adoção. Por isso, os artefactos de conceção não devem ser interpretados como resultados de uma investigação concluída. A perda das notas explica a limitação, mas não a elimina.
 
 Plano de validação e evolução
 
@@ -184,3 +184,32 @@ Foi utilizada IA generativa para organizar e redigir este relatório em portugu�
 Fontes e materiais de apoio
 
 1. INF13186L, <i>Introdução à UC</i>, pp. 5-6: âmbito AlunUÉ, relatório até dez páginas e identificação do uso de IA.<br/>2. INF13186L, <i>gemini_fase1</i>, p. 1: pesquisa, personas, mapas de empatia/jornada e HTA. Os exemplos seguintes não foram usados como entrevistas.<br/>3. Declarações e recordações do autor, 30/10/2026.<br/>4. <link href="https://www.openstreetmap.org/copyright"><u>OpenStreetMap: dados e atribuição</u></link>; <link href="https://developers.google.com/maps/documentation/urls/get-started"><u>Google Maps URLs: documentação oficial</u></link>.<br/>5. <link href="https://hostilian.github.io/AlunUE-Agua-Pelo-Caminho/"><u>Aplicação no GitHub Pages</u></link>; <link href="https://github.com/Hostilian/AlunUE-Agua-Pelo-Caminho"><u>Repositório autónomo: código, documentação e testes</u></link>. O PDF é autónomo; as ligações não substituem os artefactos exigidos.
+
+ALUNUÉ / FASE 1 / 09
+
+Apêndice A · Registos reconstruídos
+
+Fonte: relato do autor em 30/10/2026, acerca de conversas na semana anterior. O autor confirmou vínculo à UÉ e autorização dos três para síntese anónima. Códigos anónimos substituem nomes. As perguntas e respostas abaixo são paráfrases, não citações literais. A ordem precisa das perguntas, os locais e o dia de cada conversa não foram recuperados.
+
+C1 · Primeira pessoa consultada
+
+Campo | Síntese recordada
+Pergunta | O que gostaria de encontrar ou o que seria útil nesta proposta? Formulação aproximada.
+Resposta | É difícil encontrar fontes de água e orientar-se numa cidade nova. Referiu dificuldade em encontrar lojas com produtos económicos, como água, e pagamento com cartão; mencionou a pouca presença percebida de cadeias comerciais.
+Interpretação | Descoberta de locais e informação económica/de pagamento são necessidades a investigar. A opinião sobre o comércio não comprova as condições reais das lojas.
+
+C2 · Pessoa que corre regularmente
+
+Campo | Síntese recordada
+Pergunta | O que gostaria de encontrar no serviço? Formulação aproximada.
+Resposta | Corre frequentemente e deseja encontrar locais onde possa beber água regularmente e descansar.
+Interpretação | Água e descanso são necessidades explícitas; não foram recordados trajeto, frequência exata, duração ou locais. O autor confirmou posteriormente a identidade deste interlocutor; mantém-se o código anónimo na análise.
+
+C3 · Pessoa interessada em novidades
+
+Campo | Síntese recordada
+Pergunta | O autor diz ter feito perguntas semelhantes sobre a proposta; a sequência exata não está disponível.
+Resposta | Reagiu positivamente, considerou a ideia útil e manifestou vontade de receber novidades.
+Interpretação | Existe interesse declarado em acompanhamento, sem canal ou periodicidade definidos. Não constitui consentimento para publicar dados pessoais nem prova de adoção.
+
+O autor refere ter uma lista de outras pessoas interessadas, mas não foram fornecidos nomes, contactos ou respostas adicionais. A lista não é contabilizada como novos participantes nem apresentada como pedidos de notificação autorizados.

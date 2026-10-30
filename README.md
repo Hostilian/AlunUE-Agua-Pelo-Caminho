@@ -38,7 +38,7 @@ Abrir `http://localhost:8766`. Não abrir por `file://`: os módulos JavaScript 
 | `scripts/` | Verificação de ligações e manifesto |
 | `.github/workflows/` | Testes e publicação no GitHub Pages |
 
-O relatório de oito páginas está em `dist/relatorio-fase1.pdf`. A submissão Moodle é independente de publicar código ou um website. Não existe comprovativo de submissão guardado neste repositório.
+O relatório de nove páginas está em `dist/relatorio-fase1.pdf`. A submissão Moodle é independente de publicar código ou um website. Não existe comprovativo de submissão guardado neste repositório.
 
 ## Compatibilidade e limites
 

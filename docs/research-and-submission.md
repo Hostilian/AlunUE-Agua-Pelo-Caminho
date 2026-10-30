@@ -1,6 +1,6 @@
 # Investigação e submissão
 
-O relatório da fase 1 contém a evidência disponível, o método, três personas provisórias, mapas de empatia e jornada, HTA e requisitos. As conversas informais foram recordadas pelo autor; não existem respostas individuais completas ou contagens auditáveis. Nenhuma loja aderiu. O autor declara autorização do docente para trabalhar individualmente.
+O relatório da fase 1 contém a evidência disponível, o método, três personas provisórias, mapas de empatia e jornada, HTA e requisitos. Foram reconstruídas três conversas da semana anterior ao relato de 30/10/2026; o autor confirmou vínculo à UÉ e autorização para síntese anónima. C1: descoberta de água, opções económicas e pagamento com cartão. C2: água e descanso em percursos de corrida. C3: interesse em receber novidades. Não existem transcrições ou contagens auditáveis. Nenhuma loja aderiu. O autor declara autorização do docente para trabalhar individualmente.
 
 Não transformar uma estimativa de cerca de 30 conversas numa amostra exata ou percentagem. Não apresentar artefactos propostos como entrevistas observadas. Recolher novas entrevistas com data real e autorização para síntese anónima.
 
