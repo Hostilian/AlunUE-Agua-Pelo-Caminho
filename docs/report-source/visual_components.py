@@ -1,12 +1,14 @@
 from reportlab.platypus import Flowable, Paragraph, Spacer
 from reportlab.lib.colors import HexColor, white
 from reportlab.lib.styles import ParagraphStyle
+from reportlab.graphics import renderPDF
+from geographic_map import build_map
 
 PALETTE=['#246D64','#A85631','#53649A']
 PAPER=HexColor('#FAF9F4')
 class RouteVisual(Flowable):
     def __init__(self,kind='flow',en=False):
-        super().__init__();self.kind=kind;self.en=en;self.width=495;self.height=190 if kind=='hta' else 174
+        super().__init__();self.kind=kind;self.en=en;self.width=495;self.height=190 if kind=='hta' else 230
     def draw(self):
         c=self.canv
         st=ParagraphStyle('maptext',fontName='Arial',fontSize=9,leading=12,textColor=HexColor('#234B41'))
@@ -23,17 +25,7 @@ class RouteVisual(Flowable):
             note='Plan: 1 → 2 → 3 → 4. If verification fails, choose another point. If export fails, save text.' if self.en else 'Plano: 1 → 2 → 3 → 4. Se a verificação falhar, escolher outro ponto. Se a exportação falhar, guardar texto.'
             box(0,0,490,48,note)
             return
-        c.setFillColor(HexColor('#EAF1E7'));c.roundRect(0,24,495,146,12,fill=1,stroke=0)
-        # An explicitly conceptual map: no street or verified geographic claim.
-        c.setStrokeColor(HexColor('#D2DDD0'));c.setLineWidth(18)
-        for a,b,d,e in [(0,60,495,134),(70,24,180,170),(270,24,380,170)]:c.line(a,b,d,e)
-        p=c.beginPath();p.moveTo(35,55);p.curveTo(145,35,90,136,205,122);p.curveTo(300,110,310,49,450,128)
-        c.setStrokeColor(HexColor('#276D60'));c.setLineWidth(3);c.setDash(4,4);c.drawPath(p);c.setDash()
-        for i,(x,y,label) in enumerate([(35,55,'INÍCIO' if not self.en else 'START'),(205,122,'ÁGUA' if not self.en else 'WATER'),(329,84,'PAUSA' if not self.en else 'REST'),(450,128,'SEGUIR' if not self.en else 'CONTINUE')]):
-            color=PALETTE[i%3];c.setFillColor(HexColor(color));c.circle(x,y,14,fill=1,stroke=0);c.setFillColor(white);c.setFont('ArialBold',10);c.drawCentredString(x,y-3,str(i+1));
-            c.setFillColor(HexColor('#173E34'));c.setFont('ArialBold',8);c.drawCentredString(max(30,min(459,x)),y-29,label)
-        c.setFillColor(HexColor('#52665E'));c.setFont('Arial',8)
-        c.drawString(0,7,'Conceptual journey, not a street map or verified directory.' if self.en else 'Percurso conceptual, não é um mapa de ruas nem um inventário verificado.')
+        renderPDF.draw(build_map(en=self.en),c,0,0)
 
 class EvidenceVisual(Flowable):
     def __init__(self,en=False):super().__init__();self.width=495;self.height=290;self.en=en

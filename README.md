@@ -38,11 +38,13 @@ Abrir `http://localhost:8766`. Não abrir por `file://`: os módulos JavaScript 
 | `scripts/` | Verificação de ligações e manifesto |
 | `.github/workflows/` | Testes e publicação no GitHub Pages |
 
+O mapa usa geometrias reais de Évora, com referências, norte, escala e atribuição. A revisão de fontes municipais está em `docs/water-source-audit-PT.md`; os candidatos também estão em CSV e JSON.
+
 O relatório de dez páginas está em `dist/relatorio-fase1.pdf`. A submissão Moodle é independente de publicar código ou um website. Não existe comprovativo de submissão guardado neste repositório.
 
 ## Compatibilidade e limites
 
-Não existe diretório de água verificado, rede de lojas aderentes ou comparação atual de preços. A ordenação usa uma estimativa em linha reta; a navegação pelas ruas é calculada pelo Google Maps. Não garante o percurso mais curto, sombra ou acessibilidade.
+O diretório contém 14 candidatos OSM no centro histórico, com fontes e coordenadas, sem confirmação atual de potabilidade, gratuidade, acesso e funcionamento. Não existe rede de lojas aderentes ou comparação atual de preços. A ordenação usa uma estimativa em linha reta; a navegação pelas ruas é calculada pelo Google Maps. Não garante o percurso mais curto, sombra ou acessibilidade.
 
 Os serviços públicos podem limitar pedidos ou falhar. Sem internet, usar dados previamente guardados e itinerário em texto; não existe navegação ou mapa de ruas offline. Instalação em Android, TalkBack e APK assinado ainda exigem verificação no dispositivo. Nenhum APK é apresentado como concluído.
 

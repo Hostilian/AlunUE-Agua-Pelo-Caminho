@@ -2,7 +2,7 @@
 
 | Pedido | Implementação / limite |
 |---|---|
-| Água em Évora | Pesquisa OSM de candidatos; sem inventário verificado |
+| Água em Évora | 14 candidatos OSM documentados e revisão municipal; sem inventário operacional verificado |
 | Lojas e antiquários | Fluxo de proposta voluntária; sem parceiros reais |
 | Supermercados no percurso | Filtro e pesquisa por nome; sem preços atuais |
 | Paragens culturais e vistas | Consulta Wikipédia; sem certificação do melhor cenário |

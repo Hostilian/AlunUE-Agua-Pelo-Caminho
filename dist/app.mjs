@@ -1,9 +1,10 @@
+import {WATER_CANDIDATES} from './water-candidates.mjs';
 import {CENTER,DEMO_POINTS,escapeHtml as e,canRoute,haversine,planOrder,routeParts,mapsURL,validCoordinate} from './core.mjs';
 import {discover,weather,sights,getCache,CACHE_PREFIX} from './api.mjs';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
-const state={demo:true,ids:[],filter:'all',query:'',trust:'all',osm:[],sights:[],location:null,ordering:'manual',start:'center'};
+const state={demo:false,ids:[],filter:'all',query:'',trust:'all',osm:[...WATER_CANDIDATES],sights:[],location:null,ordering:'manual',start:'center'};
 try{const saved=JSON.parse(localStorage.getItem('alunue-refill-state-v1')||'null');if(saved){state.demo=typeof saved.demo==='boolean'?saved.demo:true;state.ids=Array.isArray(saved.ids)?saved.ids.filter(x=>typeof x==='string'):[];state.ordering=['manual','direct','discover'].includes(saved.ordering)?saved.ordering:'manual';}}catch{}
-const cachedOSM=getCache('osm-evora'),cachedSights=getCache('sights-evora');state.osm=Array.isArray(cachedOSM?.data)?cachedOSM.data:[];state.sights=Array.isArray(cachedSights?.data)?cachedSights.data:[];
+const cachedOSM=getCache('osm-evora'),cachedSights=getCache('sights-evora');state.osm=Array.isArray(cachedOSM?.data)?cachedOSM.data:[...WATER_CANDIDATES];state.sights=Array.isArray(cachedSights?.data)?cachedSights.data:[];
 function all(){return [...(state.demo?DEMO_POINTS:[]),...state.osm,...state.sights];}
 function save(){try{localStorage.setItem('alunue-refill-state-v1',JSON.stringify({demo:state.demo,ids:state.ids,ordering:state.ordering}));}catch{toast('Armazenamento indisponível. A sessão continua disponível; guarda o itinerário em texto.');}}
 let toastTimer;function toast(message){$('#toast').textContent=message;$('#toast').style.display='block';clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').style.display='none',6500);}

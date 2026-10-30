@@ -107,7 +107,7 @@ Variações ligadas aos relatos
 
 <b>P1 / C1:</b> descobrir água e consultar custo/pagamento quando verificados. <b>P2 / C2:</b> planear água e descanso em corrida. <b>P3 / C3:</b> descobrir proposta → pedir novidades → escolher canal e consentir → receber informação → poder cancelar. Este último fluxo é uma proposta, ainda não implementada.
 
-O esquema não representa ruas ou pontos reais. Os candidatos OpenStreetMap exigem confirmação de potabilidade, gratuidade, acesso e funcionamento.
+O mapa usa geometrias reais do centro histórico e referências OSM. Os círculos azuis indicam candidatos de água, não pontos confirmados. As etapas da tabela são uma jornada proposta; não se desenha um itinerário pedonal sem validação.
 
 ALUNUÉ / FASE 1 / 06
 
@@ -162,14 +162,14 @@ Limitações que afetam a avaliação desta fase
 
 A investigação é exploratória e retrospectiva. Foram reconstruídos três casos individuais, mas faltam transcrições ou notas originais, questionário estruturado, confirmação do universo de participantes e validação independente das três personas. A reação a uma ideia apresentada não mede adoção. Por isso, os artefactos de conceção não devem ser interpretados como resultados de uma investigação concluída. A perda das notas explica a limitação, mas não a elimina.
 
-Plano de validação e evolução
+Verificação documental da água · 30/10/2026
 
-Passo | Resultado a obter
-1 · Recolha complementar | Entrevistas neutras com estudantes reais e confirmação dos problemas antes de mostrar o conceito; preservar sínteses anónimas autorizadas.
-2 · Revisão da fase 1 | Atualizar personas, mapas e requisitos com a evidência recolhida e manter um registo das alterações.
-3 · Avaliação do protótipo | Testar tarefas em papel e média fidelidade; revisão heurística segundo o enunciado.
-4 · Fase final | Testes com pelo menos cinco utilizadores reais da UÉ, métricas de tarefas e SUS; apresentar apenas os resultados efetivamente recolhidos.
-5 · Serviço operacional | Verificar pontos de água no terreno, definir manutenção e obter adesão de lojas. Avaliar PWA em Android antes de decidir sobre APK.
+Fonte | O que estabelece / limite
+Município · 2026 | A página oficial disponibiliza boletins de qualidade da rede pública, incluindo o 2.º trimestre de 2026. Não confirma acesso, horário ou funcionamento de cada bebedouro.
+Município · outubro de 2012 | O relatório de manutenção identifica quatro bebedouros fora das áreas verdes e um inoperacional nessa avaliação. É evidência histórica, não inventário operacional atual.
+OSM · extrato consultado | 15 registos de água, agrupados em 14 candidatos próximos no centro histórico. As coordenadas são cartográficas; não comprovam potabilidade, gratuidade ou funcionamento.
+
+O roteiro municipal de 2022 identifica património hidráulico, não certifica água para beber. Nenhuma loja aderente foi confirmada. Próximos passos: confirmar os pontos com o município e no terreno, completar a pesquisa com estudantes e testar os artefactos.
 
 Papel da inteligência artificial
 
@@ -177,7 +177,7 @@ Foi utilizada IA generativa para organizar e redigir este relatório em portugu�
 
 Fontes e materiais de apoio
 
-1. INF13186L, <i>Introdução à UC</i>, pp. 5-6: âmbito AlunUÉ, relatório até dez páginas e identificação do uso de IA.<br/>2. INF13186L, <i>gemini_fase1</i>, p. 1: pesquisa, personas, mapas de empatia/jornada e HTA. Os exemplos seguintes não foram usados como entrevistas.<br/>3. Declarações e recordações do autor, 30/10/2026.<br/>4. <link href="https://www.openstreetmap.org/copyright"><u>OpenStreetMap: dados e atribuição</u></link>; <link href="https://developers.google.com/maps/documentation/urls/get-started"><u>Google Maps URLs: documentação oficial</u></link>.<br/>5. <link href="https://hostilian.github.io/AlunUE-Agua-Pelo-Caminho/"><u>Aplicação no GitHub Pages</u></link>; <link href="https://github.com/Hostilian/AlunUE-Agua-Pelo-Caminho"><u>Repositório autónomo: código, documentação e testes</u></link>. O PDF é autónomo; as ligações não substituem os artefactos exigidos.
+1. INF13186L, <i>Introdução à UC</i>, pp. 5-6: âmbito AlunUÉ, relatório até dez páginas e identificação do uso de IA.<br/>2. INF13186L, <i>gemini_fase1</i>, p. 1: pesquisa, personas, mapas de empatia/jornada e HTA. Os exemplos seguintes não foram usados como entrevistas.<br/>3. Declarações e recordações do autor, 30/10/2026.<br/>4. <link href="https://www.openstreetmap.org/copyright"><u>OpenStreetMap: dados e atribuição</u></link>; <link href="https://developers.google.com/maps/documentation/urls/get-started"><u>Google Maps URLs: documentação oficial</u></link>.<br/>5. <link href="https://www.cm-evora.pt/municipe/areas-de-acao/aguas/qualidade-da-agua/"><u>Município: qualidade da água / boletins 2026</u></link>; relatório municipal de manutenção (2012), p. 78; roteiro <i>Percursos e Memórias da Água</i> (2022). Fontes e candidatos completos no repositório.<br/>6. <link href="https://hostilian.github.io/AlunUE-Agua-Pelo-Caminho/"><u>Aplicação no GitHub Pages</u></link>; <link href="https://github.com/Hostilian/AlunUE-Agua-Pelo-Caminho"><u>Repositório autónomo: código, documentação e testes</u></link>. O PDF é autónomo; as ligações não substituem os artefactos exigidos.
 
 ALUNUÉ / FASE 1 / 09
 

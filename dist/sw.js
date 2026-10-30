@@ -1,5 +1,5 @@
-const CACHE='alunue-refill-shell-pt-v3';
-const ASSETS=['./','./index.html','./style.css','./core.mjs','./api.mjs','./app.mjs','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./project-plan.md','./api-contracts.md'];
+const CACHE='alunue-refill-shell-geo-v5';
+const ASSETS=['./','./index.html','./style.css','./core.mjs','./api.mjs','./water-candidates.mjs','./mapa-evora-osm.svg','./water-sources.md','./app.mjs','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./project-plan.md','./api-contracts.md'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('alunue-refill-shell-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});
 self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(event.request.method!=='GET'||url.origin!==self.location.origin||!ASSETS.some(path=>new URL(path,self.location.href).pathname===url.pathname))return;event.respondWith(fetch(event.request).then(response=>{if(response.ok&&response.type!=='opaqueredirect'&&!response.redirected){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));}return response;}).catch(()=>caches.match(event.request).then(cached=>cached||new Response('Ficheiro offline indisponível. Liga-te à internet para carregar a aplicação.',{status:503,headers:{'Content-Type':'text/plain'}}))));});
