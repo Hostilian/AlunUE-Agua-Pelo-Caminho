@@ -1,11 +1,12 @@
-# Usability evaluation protocol (planned, not executed)
+# Protocolo proposto de avaliação
 
-Recruit real target UÉ students after consent. For the final phase follow the course minimum of at least five real UÉ users, with quantitative metrics and SUS. For tonight, brief follow-up interviews are useful but are not usability results. Do not enter invented times or scores.
+Não contém resultados de testes já realizados.
 
-1. You have a bottle and ten minutes before a class. Find a refill you would be willing to rely on. Ask what evidence supports their choice. Success includes recognising that this prototype has no verified real refill points.
-2. Your location permission is denied. Plan a journey starting at CLV with a grocery stop. Success: choose a manual start without help.
-3. You want five optional stops. Take the plan into Maps without losing a stop. Success: understand ordered parts and the individual-leg fallback.
-4. The map API fails. Explain what the retained list represents and whether its information is current. Success: distinguish saved/stale/unverified from freshly checked.
-5. Decide whether a hypothetical shop refill requires buying something. Success: no-purchase/opt-in policies understood; no real partnership inferred.
+1. Sem permitir localização, escolher início e identificar a diferença entre um candidato e uma demonstração.
+2. Adicionar duas paragens, alterar a ordem e rever a exportação.
+3. Acrescentar supermercado e local de interesse e depois retirar cada extensão.
+4. Simular falha de um serviço e reconhecer se a informação é antiga.
+5. Guardar o plano em texto quando a partilha não estiver disponível.
+6. Verificar que uma sugestão fica apenas no dispositivo e não contacta uma loja.
 
-Proposed targets, to validate: at least 4/5 users correctly distinguish demo, candidate and checked labels; at least 4/5 choose a manual start within 60 seconds; all route stops retained in export; no participant interprets a candidate as certified potable. Report all failures; targets are not results. After tasks, use a properly administered SUS questionnaire, retain anonymous raw responses and score according to the standard method. Do not substitute enthusiasm ratings for SUS.
+Recolher conclusão, erros, tempo e comentários, com consentimento. Validar por teclado, ampliação, Android Chrome/Firefox e TalkBack. Não publicar métricas sem testes reais. Na fase final, seguir o requisito de pelo menos cinco utilizadores reais da UÉ e SUS.
