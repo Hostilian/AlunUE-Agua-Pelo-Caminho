@@ -1,5 +1,6 @@
 export const CENTER = {lat:38.5714,lon:-7.9086};
 export function validCoordinate(p){return Number.isFinite(p.lat)&&Number.isFinite(p.lon)&&Math.abs(p.lat)<=90&&Math.abs(p.lon)<=180;}
+export function foldText(value){return String(value??'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLocaleLowerCase('pt-PT').trim();}
 export function escapeHtml(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 export function haversine(a,b){const r=x=>x*Math.PI/180;const dlat=r(b.lat-a.lat),dlon=r(b.lon-a.lon);return 6371*2*Math.asin(Math.sqrt(Math.sin(dlat/2)**2+Math.cos(r(a.lat))*Math.cos(r(b.lat))*Math.sin(dlon/2)**2));}
 export function canRoute(p,demo=false){if(!validCoordinate(p)||p.status==='unavailable')return false;if(p.demo)return demo;if(p.kind!=='water'&&p.kind!=='partner')return true;return p.potable===true&&p.free===true&&p.accessConfirmed===true&&p.operational===true&&!!p.checkedAt&&p.status==='checked'&&(p.kind!=='partner'||p.optIn===true);}

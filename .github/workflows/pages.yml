@@ -19,7 +19,7 @@ jobs:
           node-version: 22
       - run: npm test
       - run: npm run check
-      - run: node --check dist/app.mjs && node --check dist/api.mjs && node --check dist/core.mjs && node --check dist/sw.js
+      - run: node --check dist/app.mjs && node --check dist/api.mjs && node --check dist/core.mjs && node --check dist/sw.js && node --check dist/map.mjs && node --check dist/investigacao.mjs
       - uses: actions/upload-pages-artifact@v3
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         with:

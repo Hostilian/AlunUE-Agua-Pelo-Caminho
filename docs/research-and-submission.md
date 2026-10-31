@@ -7,7 +7,7 @@ Não transformar uma estimativa de cerca de 30 conversas numa amostra exata ou p
 ## Moodle
 Atividade: https://www.moodle.uevora.pt/2627/mod/assign/view.php?id=27093
 
-O limite observado é 100 MB por ficheiro e 20 ficheiros. O prazo mostrado foi 31/10/2026 às 00:00. O utilizador optou por carregar o PDF manualmente. Publicar o website não submete o relatório. Verificar o estado final e guardar o comprovativo.
+O limite observado é 100 MB por ficheiro e 20 ficheiros. O prazo mostrado foi 31/10/2026 às 00:00. A versão portuguesa final foi submetida em 30/10/2026 às 21:32, após autorização explícita do autor para carregamento pelo assistente. O Moodle confirmou «Submitted for grading», 2 h 27 min antes do prazo. O comprovativo fica guardado de forma privada no espaço de trabalho, fora deste repositório público. Publicar o website é uma ação independente da submissão.
 
 Versão portuguesa com ligações: `dist/relatorio-fase1.pdf`. A tradução inglesa destina-se à revisão do autor e não substitui a versão portuguesa.
 

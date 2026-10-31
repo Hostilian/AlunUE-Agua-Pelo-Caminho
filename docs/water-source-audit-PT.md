@@ -37,3 +37,10 @@ Identificar o responsável; confirmar ligação à rede/indicação de água pot
 
 ## Licença e geografia
 Dados © OpenStreetMap contributors / ODbL: https://www.openstreetmap.org/copyright. O mapa foi desenhado com ruas e edifícios reais, projeção local com correção de latitude, escala e norte. Não inclui um percurso pedonal calculado ou uma promessa de acesso. Os polígonos dos locais de referência usam um ponto central aproximado para a legenda.
+
+
+## Preparação da confirmação - revisão adicional de 30/10/2026
+
+A revisão foi alargada ao [relatório institucional da UÉ sobre consumos de água, energia e resíduos 2020-2025](https://gdoc.uevora.pt/1005279), disponibilizado em 26/03/2026 no [portal de sustentabilidade](https://www.uevora.pt/viver/sustentabilidade-inclusao/relatorios-de-sustentabilidade). O documento informa sobre consumos; não fornece confirmação operacional dos candidatos. A página municipal [Água, um bem para todos](https://www.cm-evora.pt/municipe/areas-de-acao/ambiente/agua-um-bem-para-todos/) descreve o uso da água do aqueduto na rega, pelo que essa infraestrutura não é interpretada como abastecimento para beber. Nenhum candidato mudou de estado.
+
+Estão preparados um [plano de verificação](https://github.com/Hostilian/AlunUE-Agua-Pelo-Caminho/blob/main/docs/water-verification-next-phase-PT.md), uma [ficha de terreno](https://github.com/Hostilian/AlunUE-Agua-Pelo-Caminho/blob/main/docs/water-field-checklist-PT.md), um [registo CSV dos 14 candidatos](https://github.com/Hostilian/AlunUE-Agua-Pelo-Caminho/blob/main/docs/water-field-register-PT.csv) e [rascunhos de pedidos em português](https://github.com/Hostilian/AlunUE-Agua-Pelo-Caminho/blob/main/docs/water-contact-drafts-PT.md). São instrumentos para a próxima recolha; não foram realizadas visitas nem enviados contactos.

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AlunUÉ Água</string>
+    <string name="title_activity_main">AlunUÉ Água</string>
+    <string name="package_name">pt.alunue.aguapelocaminho</string>
+    <string name="custom_url_scheme">pt.alunue.aguapelocaminho</string>
+</resources>

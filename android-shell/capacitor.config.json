@@ -1,0 +1,12 @@
+{
+  "appId": "pt.alunue.aguapelocaminho",
+  "appName": "AlunUÉ Água",
+  "webDir": "www",
+  "appendUserAgent": " AlunUEAgua/0.1.0 (+https://hostilian.github.io/AlunUE-Agua-Pelo-Caminho/)",
+  "android": {
+    "backgroundColor": "#f7f5eb"
+  },
+  "plugins": {
+    "SystemBars": {"insetsHandling": "native", "style": "LIGHT"}
+  }
+}

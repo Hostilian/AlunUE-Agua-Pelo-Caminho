@@ -1,0 +1,63 @@
+name: Compilar Android de teste
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: alunue-android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  apk-teste:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    defaults:
+      run:
+        working-directory: android-shell
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: android-shell/package-lock.json
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: gradle
+          cache-dependency-path: |
+            android-shell/android/**/*.gradle
+            android-shell/android/gradle/wrapper/gradle-wrapper.properties
+      - name: Preparar SDK Android do runner
+        run: |
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-36" "build-tools;36.0.0"
+          echo "sdk.dir=$ANDROID_HOME" > android/local.properties
+      - name: Instalar dependências fixadas
+        run: npm ci --no-audit --no-fund
+      - name: Empacotar a aplicação web atual
+        run: npm run sync
+      - name: Compilar APK de depuração
+        run: |
+          chmod +x android/gradlew
+          android/gradlew -p android assembleDebug --no-daemon --console plain
+      - name: Verificar assinatura e manifesto
+        run: |
+          mkdir -p output
+          cp android/app/build/outputs/apk/debug/app-debug.apk output/AlunUE-Android-Teste.apk
+          "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify --verbose --print-certs output/AlunUE-Android-Teste.apk | tee output/signature-verification.txt
+          "$ANDROID_HOME/build-tools/36.0.0/aapt" dump permissions output/AlunUE-Android-Teste.apk > output/permissions.txt
+          "$ANDROID_HOME/build-tools/36.0.0/aapt" dump badging output/AlunUE-Android-Teste.apk > output/package.txt
+          git rev-parse HEAD > output/source-commit.txt
+          cd output
+          sha256sum AlunUE-Android-Teste.apk > AlunUE-Android-Teste.apk.sha256
+      - name: Disponibilizar APK de teste e comprovativos
+        uses: actions/upload-artifact@v7
+        with:
+          name: AlunUE-Android-Teste
+          path: android-shell/output/
+          if-no-files-found: error
+          retention-days: 30

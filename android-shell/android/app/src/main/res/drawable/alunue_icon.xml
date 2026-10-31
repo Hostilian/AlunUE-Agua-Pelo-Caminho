@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Project's existing SVG droplet, expressed as an Android VectorDrawable. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="192" android:viewportHeight="192">
+    <path android:fillColor="#17493E" android:pathData="M0,0h192v192h-192z" />
+    <path android:fillColor="#D7E8A5" android:pathData="M96,29C79,58 51,82 51,112a45,45 0,0 0,90 0c0,-30 -28,-54 -45,-83z" />
+    <path android:fillColor="#00000000" android:strokeColor="#17493E"
+        android:strokeWidth="7" android:strokeLineCap="round"
+        android:pathData="M69,116a27,27 0,0 0,27 26" />
+</vector>

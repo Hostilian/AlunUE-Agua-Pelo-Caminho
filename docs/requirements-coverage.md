@@ -10,9 +10,10 @@
 | APIs | Overpass, Open-Meteo, Wikipédia e URLs Google Maps |
 | Recuperação de falhas | Tempo limite, validação de respostas, dados guardados com data, texto alternativo |
 | Compatibilidade | Interface adaptável, localização opcional, partilha/cópia com alternativa |
-| Android/PWA | Manifesto e interface offline; instalação no dispositivo por verificar |
-| APK | Não construído ou assinado; requer decisão e testes próprios |
-| Investigação | Relatório de dez páginas, incluindo três relatos reconstruídos e síntese visual; evidência e hipóteses identificadas |
+| Android/PWA | Manifesto, interface offline e invólucro Capacitor; instalação no dispositivo por verificar |
+| APK | APK de teste compilado e assinatura v2 verificada; instalação real, TalkBack e distribuição de produção por validar |
+| Investigação | Relatório de dez páginas preservado; caderno de recolha local, consentimento, questionário, tarefas e SUS preparados, sem sessões inventadas |
+| Mapa e acessibilidade | Leaflet local, marcadores com nomes, alternativa estática, início por toque, pesquisa sem acentos, foco e desfazer |
 | Repositório e publicação | Repositório autónomo, verificações e GitHub Pages |
 
 ## Evolução

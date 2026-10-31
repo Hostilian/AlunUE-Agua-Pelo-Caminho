@@ -1,4 +1,4 @@
-import {CENTER,normalizeOSM,validCoordinate} from './core.mjs';
+import {CENTER,normalizeOSM,validCoordinate} from './core.mjs?v=6';
 const memory=new Map();
 export const CACHE_PREFIX='alunue-refill-api-v1:';
 export function getCache(key){try{const raw=localStorage.getItem(CACHE_PREFIX+key);if(raw){const x=JSON.parse(raw);if(x&&Number.isFinite(x.at)&&x.data!==undefined)return x;}}catch{}return memory.get(key)||null;}

@@ -1,0 +1,17 @@
+node_modules/
+www/
+.gradle-user/
+.npm-cache/
+.tmp/
+artifacts/
+output/
+*.jks
+*.keystore
+**/local.properties
+**/.gradle/
+**/build/
+**/.idea/
+**/app/src/main/assets/public/
+**/app/src/main/assets/capacitor.config.json
+**/app/src/main/assets/capacitor.plugins.json
+**/capacitor-cordova-android-plugins/
